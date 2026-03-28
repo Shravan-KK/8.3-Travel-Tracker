@@ -59,7 +59,7 @@ node index.js
 - public/styles/main.css — stylesheet used by the view
 
 ## Notes & Improvements
-- Move DB credentials into environment variables (e.g., `DATABASE_URL`) or use a `.env` file.
+- Use your database name and Password in database object
 - Add input validation and duplicate-checking when inserting into `visited_countries`.
 - Add a `start` script to `package.json` (e.g., `"start": "node index.js"`).
 
